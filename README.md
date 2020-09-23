@@ -6,4 +6,4 @@ In this Homework Assignment I was to create a website with a responsive navigati
 
 # Links
 * Link to GitHub Repo https://github.com/julianriverajr/Homework-2-Responsive-Portfolio
-* Link to WebPage https://julianriverajr.github.io/Homework-2-Responsive-Portfolio/pages/contact.html
+* Link to WebPage https://julianriverajr.github.io/Homework-2-Responsive-Portfolio/index.html
