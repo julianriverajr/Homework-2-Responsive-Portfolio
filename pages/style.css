@@ -1,0 +1,34 @@
+footer{
+    background-color: #343a40;
+    text-align:center;
+    max-width:100%;
+    padding-bottom:1px;
+    padding:13px;
+    color:#FFFFFF80;
+}
+.boxed{
+    margin:15px;
+    background-color:#343a40;
+    max-width: 60%;
+    border-radius:5px;
+    color:rgba(255, 255, 255, .5);
+}
+body {
+    background-color:black;
+}
+img{
+    padding:11px;
+}
+nav, .navbar-brand, .navlink {
+    color:beige;
+}
+form {
+    padding:15px;
+}
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}

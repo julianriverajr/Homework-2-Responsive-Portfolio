@@ -7,26 +7,54 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Julian Rivera Jr.</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" href="../index.html">About <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="../pages/portfolio.html">Portfolio</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link active" href="../index.html">about. <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="../pages/portfolio.html">portfolio.</a>
+            <a class="nav-link" href="#">contact.</a>
           </div>
         </div>
-      </nav>
-
-      <h1>
-          contact
-      </h1>
-    
+    </nav>
+    <div class="boxed">
+        <container>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>
+                        contact.
+                    </h1>
+                </div>
+            </div>
+            <form>
+                <div class="form-group" style="max-width:50%;">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group" style="max-width:50%;">
+                  <label for="exampleFormControlTextarea1">Name</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Name"></textarea>
+                </div>
+                <div class="form-group" style="max-width:50%;">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                  </div>
+                <input class="btn btn-primary" type="submit" value="Submit">
+              </form>
+        </container>
+    </div>
+    <footer>
+        <h4>
+            &copy;
+        </h4>
+  </footer>
 </body>
 </html>
