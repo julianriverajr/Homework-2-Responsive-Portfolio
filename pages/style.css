@@ -11,9 +11,9 @@ body {
     border-radius:5px;
     color:rgba(255, 255, 255, .5);
     padding:15px;
-}
-img{
-    padding:11px;
+    border-radius: 14px;
+    background: linear-gradient(315deg, #2f343a, #57585a);
+    box-shadow:  -7px -7px 11px #31373d, 7px 7px 11px #373d43;   
 }
 a{
     color:black;
@@ -25,6 +25,7 @@ footer{
     height:26px;
     color:#FFFFFF80;
     padding-bottom:35px;
+    background: linear-gradient(90deg, #57585a, #31373d)
 }
 form {
     padding:15px;
@@ -32,11 +33,25 @@ form {
 .form-group{
     max-width:90%;
 }
+.navbar{
+    background: linear-gradient(90deg, #31373d, #57585a)
+}
+img{
+    padding:11px;
+    max-width: 225px;
+}
 @media (min-width: 100px){
-    .boxed{max-width:100%}
-    img{max-width:150px}
+    .boxed{max-width:90%}
+    img{max-width:225px}
+    #myFace{max-width:180px}
 }
 @media (min-width: 768px) {
-    .boxed{max-width:60%}
-    img{max-width:150px}
+    .boxed{max-width:87%}
+    img{max-width:327px}
+    #myFace{max-width:250px}
+}
+@media (min-width: 1016px) {
+    .boxed{max-width:87%}
+    img{max-width:430px}
+    #myFace{max-width:327px}
 }
