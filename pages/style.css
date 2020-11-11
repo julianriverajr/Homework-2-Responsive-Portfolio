@@ -16,7 +16,7 @@ body {
     box-shadow:  -7px -7px 11px #31373d, 7px 7px 11px #373d43;   
 }
 a{
-    color:black;
+    color:rgb(255, 255, 255);
 }
 footer{
     background-color: #343a40;
@@ -40,15 +40,27 @@ img{
     padding:11px;
     max-width: 225px;
 }
+.col-sm-6{
+    border-bottom: solid grey 1px 
+}
+.bottom, .bottom2{
+    border-bottom: none
+}
 @media (min-width: 100px){
     .boxed{max-width:90%}
     img{max-width:225px}
     #myFace{max-width:180px}
+    .bottom{border-bottom: solid grey 1px}
+
+}
+@media (min-width: 574px){
+    .bottom{border-bottom: none}
 }
 @media (min-width: 768px) {
     .boxed{max-width:87%}
     img{max-width:327px}
     #myFace{max-width:250px}
+    .bottom{border-bottom:none}
 }
 @media (min-width: 1016px) {
     .boxed{max-width:87%}
